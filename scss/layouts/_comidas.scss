@@ -1,6 +1,6 @@
 .main { 
 
-    background-color: rgba(216, 16, 49, 0.547);
+    background-color: $color;
     
     .hero-section{
         background-image: url(../img/1wn1s7.jpg);
@@ -14,7 +14,7 @@
     .hero-section-text{
         height: 70%;
         text-align: center;
-        background-color: rgba(255, 192, 203, 0.773);
+        background-color: $color;
         width: 80%;
         margin-left: 10%;
         border: solid black 1px;
