@@ -9,6 +9,15 @@
   background-color: rgba(255, 192, 203, 0.866);
 }
 
+.nav-item:hover {
+  background-color: rgba(86, 86, 86, 0.352);
+  border-radius: 5px;
+  border: solid white 1px;
+  scale: 1, 1;
+  transition: 0, 5s;
+  padding: 5px;
+}
+
 /*main*/
 .main {
   background-color: rgba(255, 192, 203, 0.547);
@@ -102,7 +111,7 @@
 
 /*formulario*/
 .formulario {
-  background-color: rgb(188, 188, 188);
+  background-color: rgb(178, 129, 175);
   display: flex;
   flex-direction: column;
   padding: 5px 10px;
