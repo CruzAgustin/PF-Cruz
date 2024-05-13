@@ -1,0 +1,91 @@
+.main{ 
+
+    background-color: rgba(255, 192, 203, 0.547);
+    
+    .hero-section{
+        background-image: url(../img/1wn1s7.jpg);
+        background-size: contain;
+        height: 200px;
+        background-attachment: fixed;
+        align-items: center;
+        display: flex;
+    }
+
+    .hero-section-text{
+        height: 70%;
+        text-align: center;
+        background-color: rgba(255, 192, 203, 0.773);
+        width: 80%;
+        margin-left: 10%;
+        border: solid black 1px;
+        gap: 10px;
+        padding: 10px;
+        overflow: hidden;
+
+        @media screen and (max-width: 800px) {
+            h1{
+                font-size: 6vw;
+            }
+            p {font-size: 15px;
+            }
+        }
+    }
+
+    .sub-hero{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin: 30px;
+        
+
+        @media screen and (max-width: 800px){
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+    
+    .sub-hero-map{
+        border: solid black 1px;
+        border-radius: 15px;
+        align-items: end;
+        margin-right: auto;
+        height: 300px;
+        width: 100%;
+    }
+    
+    }
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+
+        @media screen and (max-width: 800px) {
+            .contenedor {
+                flex-direction: column;
+            }
+          }
+          
+          @media screen and (max-width: 800px) {
+            .contenedor .redireccion img{
+              transform: scale(0.7);
+            }
+          }
+    
+    .contenedor .redireccion img {
+        max-height: 550px;
+        height: 550px;
+        max-width: 300px;
+        margin: 10px;
+        width: 300px;
+        padding: 10px;
+        object-fit: cover;
+        border-radius: 25%;
+        transition: filter 1s, transform 0.5s;
+        filter: grayscale(100%);
+
+        &:hover {
+            filter: grayscale(0%);
+            transform: scale(1.1);
+        }
+       
+    }

@@ -1,0 +1,97 @@
+.main{ 
+
+    background-color: rgba(255, 192, 203, 0.547);
+    
+    .hero-section{
+        background-image: url(../img/1wn1s7.jpg);
+        background-size: contain;
+        height: 200px;
+        background-attachment: fixed;
+        align-items: center;
+        display: flex;
+    }
+
+    .hero-section-text{
+        height: 70%;
+        text-align: center;
+        background-color: rgba(255, 192, 203, 0.773);
+        width: 80%;
+        margin-left: 10%;
+        border: solid black 1px;
+        gap: 10px;
+        padding: 10px;
+        overflow: hidden;
+
+        @media screen and (max-width: 800px) {
+            h1{
+                font-size: 6vw;
+            }
+            p {font-size: 15px;
+            }
+        }
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+        margin: 20px;
+    
+        @media screen and (max-width: 800px){
+            display: flex;
+            flex-direction: column;
+        }
+      }
+      
+      .video {
+        grid-column: 2fr ;
+        min-height: 400px;
+        max-height: 100%;
+        width: 100%;
+        justify-content: center;
+        border-radius: 15px;
+        align-items: center;
+      }
+      
+    
+      .textright {
+        grid-column: 1fr ;
+        background-color: rgba(84, 84, 84, 0.175);
+        text-align: center;
+        border: solid rgb(0, 0, 0) 1px;
+        border-radius: 15px;
+        padding: 10px;
+      }
+      
+      .textleft {
+        grid-column: 1fr;
+        grid-column: 1fr ;
+        background-color: rgba(84, 84, 84, 0.175);
+        text-align: center;
+        align-items: center;
+        border: solid rgb(0, 0, 0) 1px;
+        border-radius: 15px;
+        height: 300px;
+        width: 100%;
+        gap: 10px;
+        padding: 20px;
+        }
+
+        .text{
+            padding: 10px;
+            gap: 20px;
+            margin: 10px;
+            text-align: center;
+        }
+    
+        .sub-hero-map{
+            border: solid black 1px;
+            border-radius: 15px;
+            align-items: end;
+            margin-right: auto;
+            height: 300px;
+            width: 100%;
+        }
+    }
